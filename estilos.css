@@ -1,0 +1,103 @@
+.titulo-principal {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.titulo-inferior {
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.como-comprar {
+    text-transform: uppercase;
+}
+
+.titulo-comocom {
+    margin-left: 25px;
+}
+
+.img-decoracion {
+    width: 75%;
+}
+
+.iniciar-compra {
+    text-transform: uppercase;
+}
+
+.titulo-comoini {
+    margin-left: 25px;
+}
+
+.logo {
+    width: 60px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 2rem;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    background-color: #333;
+    background-image: url(./Assets/decoracion\ del\ hogar\ 2\ .jpg);
+    background-size: cover;
+}
+
+.container-principal {
+    color: #fff;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 3px solid aqua;
+    float: inline-start;
+    margin: 20% 0% 0% 25%;
+    padding-bottom: 15px;
+}
+
+.container-botones {
+    padding: 2% 0px 0px 30%;
+}
+
+.boton-nosotros, .boton-productos {
+    width: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 100px;
+}
+
+.boton-nosotros:hover, .boton-productos:hover {
+    width: 160px;
+    background-color: #588cd4;
+    font-size: 25px;
+    color: #000;
+}
+
+.link-boton {
+    color: #fff;
+    text-decoration: none;
+}
