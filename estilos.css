@@ -271,3 +271,18 @@ main {
 .img-icons a {
     padding-left: 20px;
 }
+
+.contenedor-imagen {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.img-cubiertos, .img-bandeja {
+    padding-top: 10px;
+    width: 200px;
+}
+
+.texto-carta {
+    position: relative;
+}
